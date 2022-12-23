@@ -1,0 +1,6 @@
+if [ "$1" = "service-workflow-tn" ]; then
+        cd /apps/services/common/service-workflow-tn
+        sudo sh restart.sh /apps/services/jenkinsPath
+elif [ "$1" = "service-notification-tn" ]; then
+        cd /apps/services/common/service-notification-tn
+        sudo sh restart.sh /apps/services/jenkinsPath

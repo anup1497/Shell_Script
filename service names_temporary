@@ -1,0 +1,21 @@
+service-admin-panel-web-surrogate-deploy  service-otp
+service-auth                              service-pennydrop
+service-bre-msme                          service-profile
+service-cloud-config-server               service-registry
+service-cloud-gateway                     service-spring-boot-admin-surrogate
+service-dms                               service-users
+service-hystrix-dashboard
+
+**********************************************************************************
+
+/apps/services/msme/service-dms-msme
+
+service-gst-msme
+banker-dashboard-surrogate-deploy   service-itr-msme
+msme-partner-surrogate-deploy       service-itr-msme\xmlFiles
+opl-web-lending-surrogate-deploy    service-loans-msme
+partner-interface-surrogate-deploy  service-mca-msme
+service-analyzer-msme               service-notifications-msme
+service-cibil-msme                  service-oneform-msme
+service-dms-msme                    service-reports-msme
+service-eligibility-msme            service-thirdparty-msme
